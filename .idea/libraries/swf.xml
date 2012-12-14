@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="swf" type="haXe">
+    <CLASSES>
+      <root url="file:///usr/lib/haxe/lib/swf" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file:///usr/lib/haxe/lib/swf" />
+    </SOURCES>
+  </library>
+</component>
