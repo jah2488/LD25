@@ -6,12 +6,12 @@ import org.flixel.FlxSprite;
 class MyBullet extends FlxSprite
 {
     public var damage:Int = 1;
-    public var speed :Int = 300;
+    public var speed :Int = 900;
 
     public function new()
     {
         super();
-
+        makeGraphic(5,5,0xFFFFFFFF);
         exists = false;
     }
 
@@ -23,6 +23,7 @@ class MyBullet extends FlxSprite
         velocity.x = Math.cos(radiansFromAngle) * speed;
         velocity.y = Math.sin(radiansFromAngle) * speed;
         exists = true;
+        FlxG.play("Shoot");
     }
 
     override public function update():Void
