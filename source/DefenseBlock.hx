@@ -3,12 +3,14 @@ package ;
 import org.flixel.FlxG;
 import org.flixel.FlxState;
 
-class DefenseBlock extends FlxState {
+class DefenseBlock extends Block {
 
-    override public function create():Void {
-    
+    public function new() {
+        super("defense-64x64.png");
+        cost = 150;
+        health = 7;
     }
-    
+
     override public function update():Void {
         super.update();
     }

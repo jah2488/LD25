@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" name="Default" comment="Initial Commit.">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/MyBullet.hx" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.build" afterPath="$PROJECT_DIR$/.build" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/AttackBlock.hx" afterPath="$PROJECT_DIR$/source/AttackBlock.hx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/Block.hx" afterPath="$PROJECT_DIR$/source/Block.hx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/BulletManager.hx" afterPath="$PROJECT_DIR$/source/BulletManager.hx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/DefenseBlock.hx" afterPath="$PROJECT_DIR$/source/DefenseBlock.hx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LD25.nmml" afterPath="$PROJECT_DIR$/LD25.nmml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/MenuState.hx" afterPath="$PROJECT_DIR$/source/MenuState.hx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/MyBullet.hx" afterPath="$PROJECT_DIR$/source/MyBullet.hx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/PlayState.hx" afterPath="$PROJECT_DIR$/source/PlayState.hx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/ResourceBlock.hx" afterPath="$PROJECT_DIR$/source/ResourceBlock.hx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="25.iws" />
@@ -16,19 +20,28 @@
     <file path="/ProjectClass.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355372173767" ignored="false" />
     <file path="/MenuState.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355555650287" ignored="false" />
     <file path="$PROJECT_DIR$/export/cpp/mac/obj/Build.xml" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355432215526" ignored="false" />
-    <file path="/LD25.nmml" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355521009413" ignored="false" />
+    <file path="/LD25.nmml" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355674613185" ignored="false" />
     <file path="/8thlightPreloader.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355441962360" ignored="false" />
-    <file path="/a.dummy" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355452578831" ignored="false" />
+    <file path="/a.dummy" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355628342870" ignored="false" />
     <file path="/test.hxml" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355447704259" ignored="false" />
     <file path="/ExampleTest.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355447768980" ignored="false" />
-    <file path="/PlayState.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355586395846" ignored="false" />
-    <file path="/BulletManager.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355522501386" ignored="false" />
+    <file path="/PlayState.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355688804919" ignored="false" />
+    <file path="/BulletManager.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355685394558" ignored="false" />
     <file path="/MyBullet.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355520871206" ignored="false" />
-    <file path="/Dummy.txt" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355509905818" ignored="false" />
+    <file path="/Dummy.txt" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355608318694" ignored="false" />
     <file path="/Player.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355522868869" ignored="false" />
     <file path="/BadGuy.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355518225153" ignored="false" />
     <file path="/Entity.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355522773460" ignored="false" />
-    <file path="/Block.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355590702214" ignored="false" />
+    <file path="/Block.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355683239831" ignored="false" />
+    <file path="/BuildSpot.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355613043891" ignored="false" />
+    <file path="/ResourceBlock.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355675170720" ignored="false" />
+    <file path="/a.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355604017096" ignored="false" />
+    <file path="/DefenseBlock.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355675148437" ignored="false" />
+    <file path="/AttackBlock.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355686459507" ignored="false" />
+    <file path="/blocks.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355614585743" ignored="false" />
+    <file path="/Missile.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355688979073" ignored="false" />
+    <file path="/FlxObject.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355685961032" ignored="false" />
+    <file path="/Bullet.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355687498000" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +56,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -77,7 +91,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -88,10 +101,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MenuState.hx" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/MenuState.hx">
+      <file leaf-file-name="Block.hx" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/Block.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="41" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0">
+            <state line="37" column="12" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,25 +113,25 @@
       <file leaf-file-name="PlayState.hx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/PlayState.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
+            <state line="183" column="33" selection-start="5712" selection-end="5712" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Block.hx" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/Block.hx">
+      <file leaf-file-name="FlxWeapon.hx" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///usr/lib/haxe/lib/flixel/1,07/org/flixel/plugin/photonstorm/FlxWeapon.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+            <state line="343" column="12" selection-start="12589" selection-end="12589" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResourceBlock.hx" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/ResourceBlock.hx">
+      <file leaf-file-name="Bullet.hx" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///usr/lib/haxe/lib/flixel/1,07/org/flixel/plugin/photonstorm/baseTypes/Bullet.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="38" column="32" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,52 +140,34 @@
       <file leaf-file-name="AttackBlock.hx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/AttackBlock.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="19" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefenseBlock.hx" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/DefenseBlock.hx">
+      <file leaf-file-name="BulletManager.hx" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/BulletManager.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.2686145">
+            <state line="4" column="32" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlxButtonPlus.hx" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///usr/lib/haxe/lib/flixel/1,07/org/flixel/plugin/photonstorm/FlxButtonPlus.hx">
+      <file leaf-file-name="Missile.hx" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/Missile.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="417" column="0" selection-start="9200" selection-end="9200" vertical-scroll-proportion="0.0">
+            <state line="17" column="30" selection-start="388" selection-end="388" vertical-scroll-proportion="0.3653295">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LdEntity.hx" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/LdEntity.hx">
+      <file leaf-file-name="BuildSpot.hx" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/BuildSpot.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="33" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.hx" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/Player.hx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="22" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyBullet.hx" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/MyBullet.hx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="21" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+            <state line="49" column="32" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -196,29 +191,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/source/8thlightPreloader.hx" />
-        <option value="$PROJECT_DIR$/source/eighthLightPreloader.hx" />
-        <option value="$PROJECT_DIR$/test.hxml" />
-        <option value="$PROJECT_DIR$/test/ExampleTest.hx" />
-        <option value="/usr/lib/haxe/lib/flixel/1,07/org/flixel/system/FlxPreloader.hx" />
-        <option value="$PROJECT_DIR$/source/BadGuy.hx" />
-        <option value="$PROJECT_DIR$/LD25.nmml" />
-        <option value="$PROJECT_DIR$/source/MyBullet.hx" />
-        <option value="$PROJECT_DIR$/source/com/jah2488/LD48/BulletManager.hx" />
-        <option value="$PROJECT_DIR$/source/Entity.hx" />
-        <option value="$PROJECT_DIR$/source/BulletManager.hx" />
-        <option value="$PROJECT_DIR$/source/Player.hx" />
         <option value="$PROJECT_DIR$/source/LdEntity.hx" />
         <option value="$PROJECT_DIR$/source/MenuState.hx" />
-        <option value="$PROJECT_DIR$/source/PlayState.hx" />
+        <option value="/usr/lib/haxe/lib/flixel/1,07/org/flixel/plugin/photonstorm/FlxButtonPlus.hx" />
+        <option value="$PROJECT_DIR$/source/BuildSpot.hx" />
+        <option value="$PROJECT_DIR$/source/blocks.hx" />
+        <option value="$PROJECT_DIR$/LD25.nmml" />
+        <option value="$PROJECT_DIR$/source/DefenseBlock.hx" />
+        <option value="$PROJECT_DIR$/source/ResourceBlock.hx" />
         <option value="$PROJECT_DIR$/source/Block.hx" />
+        <option value="$PROJECT_DIR$/source/BulletManager.hx" />
+        <option value="/usr/lib/haxe/lib/flixel/1,07/org/flixel/FlxObject.hx" />
+        <option value="$PROJECT_DIR$/source/AttackBlock.hx" />
+        <option value="/usr/lib/haxe/lib/flixel/1,07/org/flixel/plugin/photonstorm/FlxWeapon.hx" />
+        <option value="/usr/lib/haxe/lib/flixel/1,07/org/flixel/plugin/photonstorm/baseTypes/Bullet.hx" />
+        <option value="$PROJECT_DIR$/source/PlayState.hx" />
+        <option value="$PROJECT_DIR$/source/Missile.hx" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1519" />
-    <option name="height" value="1348" />
+    <option name="width" value="1680" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -266,7 +261,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -277,6 +271,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="25" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1,07" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -305,6 +313,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,18 +323,18 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.externalTools" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -360,6 +369,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -386,19 +408,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -473,31 +482,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1519" height="1348" extended-state="6" />
+    <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908913" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23389022" sideWeight="0.50377834" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1854714" sideWeight="0.05129434" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293556" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32115868" sideWeight="0.27041942" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17311609" sideWeight="0.904065" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09593496" sideWeight="0.99049556" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15544675" sideWeight="0.8013245" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39955848" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1986755" sideWeight="0.9632803" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908913" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -562,112 +571,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file:///usr/lib/haxe/lib/flixel/1,07/org/flixel/plugin/photonstorm/FlxVelocity.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="240" column="0" selection-start="10458" selection-end="10458" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/haxe/lib/flixel/1,07/org/flixel/plugin/TimerManager.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/haxe/lib/flixel/1,07/org/flixel/FlxButton.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="288" column="16" selection-start="7257" selection-end="7257" vertical-scroll-proportion="0.8759124">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/BuildSpot.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="32" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///usr/lib/haxe/lib/flixel/1,07/org/flixel/FlxSprite.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="510" column="0" selection-start="14407" selection-end="14407" vertical-scroll-proportion="0.48739496">
+        <state line="1645" column="0" selection-start="43420" selection-end="43420" vertical-scroll-proportion="0.01459854">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/data/base.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file:///usr/lib/haxe/lib/flixel/1,07/org/flixel/FlxBasic.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="335" column="0" selection-start="7670" selection-end="7670" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/export/flash/haxe/nme/installer/Assets.hx">
+    <entry file="file:///usr/lib/haxe/lib/flixel/1,07/org/flixel/FlxObject.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="197" column="92" selection-start="6832" selection-end="6832" vertical-scroll-proportion="0.50364965">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/haxe/lib/flixel/1,07/org/flixel/FlxGroup.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="618" column="0" selection-start="15407" selection-end="15407" vertical-scroll-proportion="0.30656934">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/haxe/lib/flixel/1,07/org/flixel/plugin/photonstorm/baseTypes/MouseSpring.hx">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LD25.nmml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="43" selection-start="918" selection-end="918" vertical-scroll-proportion="0.41512915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/BulletManager.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/ProjectClass.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/MyBullet.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/LdEntity.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="33" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/Player.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/haxe/lib/flixel/1,07/org/flixel/plugin/photonstorm/FlxButtonPlus.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="417" column="0" selection-start="9200" selection-end="9200" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/MenuState.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="41" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/PlayState.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/Block.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+        <state line="37" column="12" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/ResourceBlock.hx">
+    <entry file="file://$PROJECT_DIR$/source/BulletManager.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="4" column="32" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/AttackBlock.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="19" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/DefenseBlock.hx">
+    <entry file="file:///usr/lib/haxe/lib/flixel/1,07/org/flixel/plugin/photonstorm/baseTypes/Bullet.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.2686145">
+        <state line="38" column="32" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/haxe/lib/flixel/1,07/org/flixel/plugin/photonstorm/FlxWeapon.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="343" column="12" selection-start="12589" selection-end="12589" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/PlayState.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="33" selection-start="5712" selection-end="5712" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Missile.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="30" selection-start="388" selection-end="388" vertical-scroll-proportion="0.3653295">
           <folding />
         </state>
       </provider>

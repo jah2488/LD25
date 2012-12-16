@@ -29,6 +29,7 @@
 		<sound path="data/beep.mp3" id="Beep" />
         <sound path="data/shoot.wav" id="Shoot" />
         <sound path="data/hurt.wav" id="Hurt" />
+        <sound path="data/coin.wav" id="Coin" />
 
 		<!-- Your sound embedding code here... -->
 		

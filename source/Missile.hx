@@ -1,17 +1,21 @@
-package;
+package ;
 
+import org.flixel.FlxPoint;
 import org.flixel.FlxG;
 import org.flixel.FlxSprite;
 
-class MyBullet extends FlxSprite
-{
+class Missile extends FlxSprite {
+
     public var damage:Int = 1;
-    public var speed :Int = 900;
+    public var speed :Int = 100;
 
     public function new()
     {
         super();
-        makeGraphic(5,5,0xFFFFFFFF);
+        loadRotatedGraphic("assets/data/missle.png");
+        scale.x = scale.y = 0.4;
+        width = width * 0.6;
+        height = height * 0.5;
         exists = false;
     }
 

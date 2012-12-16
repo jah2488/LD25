@@ -9,7 +9,7 @@ class BulletManager extends FlxGroup
         super();
         var i = 0;
         while(i < poolSize) {
-            var bullet = new MyBullet();
+            var bullet = new Missile();
             add(bullet);
             i++;
         }
@@ -19,7 +19,7 @@ class BulletManager extends FlxGroup
     {
         if(getFirstAvailable() != null)
         {
-            var bullet = cast(getFirstAvailable(), MyBullet);
+            var bullet = cast(getFirstAvailable(), Missile);
             bullet.fire(bx, by, angle);
         }
     }
