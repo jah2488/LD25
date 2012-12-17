@@ -9,7 +9,7 @@ import org.flixel.FlxSprite;
 class Block extends BuildSpot {
 
     public var cost  = 0;
-    public var value = 0;
+    public var value = 10;
 
     public function new(Graphic:String = "spritesheet-ancients-64x64.png") {
         super(Graphic, 64, 64);
@@ -37,6 +37,7 @@ class Block extends BuildSpot {
     override public function kill():Void {
         flicker(1);
         FlxG.shake(0.02, 0.5, killIt);
+        builtOnTopOf.builtOn = false;
     }
 
     private function killIt():Void {

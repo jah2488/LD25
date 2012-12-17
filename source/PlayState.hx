@@ -1,5 +1,6 @@
 package ;
 
+import org.flixel.plugin.photonstorm.FlxCollision;
 import org.flixel.FlxPoint;
 import org.flixel.FlxButton;
 import org.flixel.plugin.photonstorm.FlxButtonPlus;
@@ -43,7 +44,9 @@ class PlayState extends FlxState {
 
     var missiles:FlxGroup;
     var missileTimer:Float = 0;
-    var bulletManager:BulletManager;
+    var missileManager:BulletManager;
+    var laser:Laser;
+    var laserManager:BulletManager;
 
     var blockBag:Array<Block>;
 
@@ -54,7 +57,8 @@ class PlayState extends FlxState {
         world.x = world.y = 0;
         add(world);
 
-        bulletManager = new BulletManager();
+        missileManager = new BulletManager(10, Missile);
+        laserManager   = new BulletManager(10, Laser);
 
         buildHighlight = new FlxSprite();
         buildHighlight.loadGraphic("assets/data/spritesheet-ancients-64x64.png", 64, 64);
@@ -63,15 +67,15 @@ class PlayState extends FlxState {
 
         blockHealthHover = new FlxText(-1000,0, 65, "");
 
-        defense = new FlxButtonPlus(20, 20, null, null, "Defense 150", 60, 30);
+        defense = new FlxButtonPlus(20, 20, null, null, "Barrier  300", 60, 30);
         defense.setOnClickCallback(onButtonClicked, [0]);
         add(defense);
 
-        attack = new FlxButtonPlus(20, 60, null, null, "Attack   250", 60, 30);
+        attack = new FlxButtonPlus(20, 60, null, null, "Fence     50", 60, 30);
         attack.setOnClickCallback(onButtonClicked, [1]);
         add(attack);
 
-        supply = new FlxButtonPlus(20, 100, null, null, "Supply   100", 60, 30);
+        supply = new FlxButtonPlus(20, 100, null, null, "Supply   200", 60, 30);
         supply.setOnClickCallback(onButtonClicked, [2]);
         add(supply);
 
@@ -82,21 +86,23 @@ class PlayState extends FlxState {
 
 
         for(spot in 1...8) {
-           var bs = new BuildSpot("spritesheet-ancients-64x64.png", 64, 64);
+           var bs = new BuildSpot("foundation-64.png", 64, 14);
            bs.frame = 3;
            bs.setOnClickCallback(onBuildClicked, [bs]);
            bs.setMouseOverCallback(onBuildHovered, [bs]);
            bs.setMouseOutCallback(onBuildOut);
            bs.x = (FlxG.width  * .05) + (65 * spot);
-           bs.y = (FlxG.height * .95);
+           bs.y = (FlxG.height * .97);
            add(bs);
            if(spot == 4) {
-//               buildBlock(new ResourceBlock(), bs);
+           // buildBlock(new ResourceBlock(), bs);
            // Y U NO WORK
            }
         }
         blockBag = new Array<Block>();
-        add(bulletManager);
+        add(missileManager);
+        add(laserManager);
+        FlxG.playMusic("bgMusic");
     }
 
     private function onBuildOut():Void {
@@ -117,7 +123,8 @@ class PlayState extends FlxState {
         tile.setOnClickCallback(onBuildClicked, [tile]);
         tile.setMouseOverCallback(onBuildHovered, [tile]);
         tile.x = spot.x;
-        tile.y = spot.y - spot.height;
+        tile.y = spot.y - tile.height;
+        tile.builtOnTopOf = spot;
         coins -= tile.cost;
         add(tile);
         blockBag.push(tile);
@@ -125,8 +132,9 @@ class PlayState extends FlxState {
     }
 
     private function onBuildHovered(spot:BuildSpot):Void {
+        buildHighlight.alpha = 0.75;
         buildHighlight.x = spot.x;
-        buildHighlight.y = spot.y - spot.height;
+        buildHighlight.y = spot.y - 64;
     }
 
     private function onButtonClicked(button:Int):Void {
@@ -183,9 +191,9 @@ class PlayState extends FlxState {
                     if ( Type.getClassName(Type.getClass(block)) == "ResourceBlock" ) {
                         FlxG.play("Coin");
                         block.flicker();
-                        coinText.flicker();
-                        coins += block.value;
                     }
+                    coinText.flicker();
+                    coins += block.value;
                 }
             }
             if(cycle == "NIGHT") {
@@ -196,13 +204,22 @@ class PlayState extends FlxState {
         if(cycle == "NIGHT") {
             missileTimer += FlxG.elapsed;
             if (missileTimer >= 3) {
-                bulletManager.fire(-20, (FlxG.height / 2) + FlxMath.rand(-100,100), 0);
+                var y = FlxG.width / 2 ;
+                var locationsX = [0, 150, 300,      0, FlxG.width + 20];
+                var locationsY = [y, -50, -50, y + 50, y - 100];
+                var r = FlxMath.rand(0,4);
+                missileManager.fire(locationsX[r], locationsY[r], 0);
                 missileTimer = 0;
+            }
+            if (Math.ceil(missileTimer) == 1) {
+                laserManager.fire(0, FlxG.height/2, 0);
+                missileTimer = 1.1;
             }
         }
 
         for ( block in blockBag ) {
-            FlxG.overlap(block, bulletManager, onCollision);
+            FlxG.overlap(block, missileManager, onCollision);
+            FlxG.overlap(block, laserManager, onCollision);
         }
     }
 

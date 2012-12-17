@@ -31,6 +31,7 @@ class BuildSpot extends FlxButton {
 
 
     public var builtOn = false;
+    public var builtOnTopOf:BuildSpot;
 
     public function new(Graphic:String, Width:Int = 45, Height:Int = 45, X:Int = 100, Y:Int = 100) {
         super();

@@ -7,7 +7,7 @@ class DefenseBlock extends Block {
 
     public function new() {
         super("defense-64x64.png");
-        cost = 150;
+        cost = 300;
         health = 7;
     }
 

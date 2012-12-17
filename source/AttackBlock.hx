@@ -11,8 +11,8 @@ class AttackBlock extends Block {
 
     public function new() {
         super("attack-64x64.png");
-        cost = 250;
-        health = 4;
+        cost = 50;
+        health = 1;
         weapon = new FlxWeapon("blaster", this, "x", "y");
         weapon.makePixelBullet(5,2,20,0xFFFFFFFF);
         weapon.setBulletDirection(FlxWeapon.BULLET_LEFT, 300);

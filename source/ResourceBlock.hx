@@ -7,7 +7,7 @@ class ResourceBlock extends Block {
 
     public function new() {
         super("supply-64x64.png");
-        cost  = 100;
+        cost  = 200;
         value = 50;
         health = 3;
     }

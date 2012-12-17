@@ -1,5 +1,6 @@
 package;
 
+import org.flixel.plugin.photonstorm.FlxSpecialFX;
 import org.flixel.plugin.photonstorm.FlxGradient;
 import org.flixel.FlxGroup;
 import org.flixel.FlxParticle;
@@ -22,6 +23,7 @@ import org.flixel.FlxU;
 class MenuState extends FlxState
 {
     var startButton:FlxButton;
+    var logo:FlxSprite;
 
 	override public function create():Void
 	{
@@ -32,18 +34,41 @@ class MenuState extends FlxState
 		#end		
 		FlxG.mouse.show();
 
-        //create a button with the label Start and set an on click function
+        if (FlxG.getPlugin(FlxSpecialFX) == null)
+        {
+            FlxG.addPlugin(new FlxSpecialFX());
+        }
+        var starfield = FlxSpecialFX.starfield();
+        var stars = starfield.create(0, 0, FlxG.width,FlxG.height, 300);
+        starfield.setStarSpeed ( 0, 1 );
+        add(stars);
+
         startButton = new FlxButton(0, 0, "Start", onStartClick);
-        //add the button to the state draw list
-        add(startButton);
+        startButton.makeGraphic(100, 20, 0x00FFFFFF);
+        startButton.label.width = 100;
+        startButton.label.setSize(24);
+        startButton.label.setColor(0xFFFFFFFF);
         //center align the button on the stage
         FlxDisplay.screenCenter(startButton,true,true);
+
+        logo = new FlxSprite();
+        logo.loadGraphic("assets/data/riseOfAgents.png");
+        logo.y = 1000;
+        logo.velocity.y = -250;
+        add(logo);
+        FlxDisplay.screenCenter(logo,true,false);
+
+        FlxG.playMusic("menuMusic");
+    }
+
+
+    private function showStart():Void {
+        add(startButton);
     }
 
     private function onStartClick():Void
     {
-        FlxG.switchState(new PlayState());
-//        FlxG.fade(0xFFFFFFFF, 1, false, onFadeComplete);
+       FlxG.fade(0xFFFFFFFF, 0.5, false, onFadeComplete);
     }
 
     private function onFadeComplete():Void {
@@ -58,5 +83,12 @@ class MenuState extends FlxState
 	override public function update():Void
 	{
 		super.update();
+        if(logo.y < 0) {
+           logo.y = 1;
+           logo.velocity.y = 0;
+           FlxG.shake(0.025);
+           FlxG.flash(0xFFFFFFFF,0.75, showStart);
+           logo.flicker(0.75);
+        }
 	}
 }
