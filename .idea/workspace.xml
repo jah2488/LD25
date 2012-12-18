@@ -3,15 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" name="Default" comment="Initial Commit.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.build" afterPath="$PROJECT_DIR$/.build" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/AttackBlock.hx" afterPath="$PROJECT_DIR$/source/AttackBlock.hx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/Block.hx" afterPath="$PROJECT_DIR$/source/Block.hx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/BuildSpot.hx" afterPath="$PROJECT_DIR$/source/BuildSpot.hx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/BulletManager.hx" afterPath="$PROJECT_DIR$/source/BulletManager.hx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/DefenseBlock.hx" afterPath="$PROJECT_DIR$/source/DefenseBlock.hx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LD25.nmml" afterPath="$PROJECT_DIR$/LD25.nmml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/MenuState.hx" afterPath="$PROJECT_DIR$/source/MenuState.hx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/Laser.hx" afterPath="$PROJECT_DIR$/source/Laser.hx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/Missile.hx" afterPath="$PROJECT_DIR$/source/Missile.hx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/PlayState.hx" afterPath="$PROJECT_DIR$/source/PlayState.hx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/Registry.hx" afterPath="$PROJECT_DIR$/source/Registry.hx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/ResourceBlock.hx" afterPath="$PROJECT_DIR$/source/ResourceBlock.hx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -26,26 +23,29 @@
     <file path="/a.dummy" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355628342870" ignored="false" />
     <file path="/test.hxml" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355447704259" ignored="false" />
     <file path="/ExampleTest.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355447768980" ignored="false" />
-    <file path="/PlayState.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355717985791" ignored="false" />
+    <file path="/PlayState.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355790376819" ignored="false" />
     <file path="/BulletManager.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355715087106" ignored="false" />
     <file path="/MyBullet.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355520871206" ignored="false" />
-    <file path="/Dummy.txt" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355608318694" ignored="false" />
+    <file path="/Dummy.txt" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355782140782" ignored="false" />
     <file path="/Player.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355522868869" ignored="false" />
     <file path="/BadGuy.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355518225153" ignored="false" />
     <file path="/Entity.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355522773460" ignored="false" />
-    <file path="/Block.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355718063677" ignored="false" />
-    <file path="/BuildSpot.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355718024823" ignored="false" />
-    <file path="/ResourceBlock.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355675170720" ignored="false" />
+    <file path="/Block.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355756075221" ignored="false" />
+    <file path="/BuildSpot.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355755058235" ignored="false" />
+    <file path="/ResourceBlock.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355781288378" ignored="false" />
     <file path="/a.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355604017096" ignored="false" />
     <file path="/DefenseBlock.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355717759020" ignored="false" />
-    <file path="/AttackBlock.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355686459507" ignored="false" />
+    <file path="/AttackBlock.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355781300740" ignored="false" />
     <file path="/blocks.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355614585743" ignored="false" />
-    <file path="/Missile.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355717126214" ignored="false" />
+    <file path="/Missile.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355782801191" ignored="false" />
     <file path="/FlxObject.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355685961032" ignored="false" />
     <file path="/Bullet.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355687498000" ignored="false" />
-    <file path="/Registry.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355708835784" ignored="false" />
-    <file path="/Laser.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355715910561" ignored="false" />
+    <file path="/Registry.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355782334046" ignored="false" />
+    <file path="/Laser.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355785148269" ignored="false" />
     <file path="/Weapon.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355711918393" ignored="false" />
+    <file path="/Effects.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355785329771" ignored="false" />
+    <file path="/WinState.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355790927860" ignored="false" />
+    <file path="/LoseState.hx" changelist="5590ddf1-4c8a-4507-8511-6a2d0c5c902c" time="1355791052295" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -95,6 +94,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -105,28 +105,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Block.hx" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/Block.hx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="29" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuildSpot.hx" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/BuildSpot.hx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="37" selection-start="2111" selection-end="2111" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayState.hx" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PlayState.hx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/PlayState.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="11" selection-start="2984" selection-end="2984" vertical-scroll-proportion="0.2555147">
+            <state line="284" column="0" selection-start="9185" selection-end="9185" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WinState.hx" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/WinState.hx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="0" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoseState.hx" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/LoseState.hx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="4" selection-start="1539" selection-end="1539" vertical-scroll-proportion="0.80409354">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlxDisplay.hx" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///usr/lib/haxe/lib/flixel/1,07/org/flixel/plugin/photonstorm/FlxDisplay.hx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="93" column="11" selection-start="2755" selection-end="2755" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,61 +144,16 @@
       <file leaf-file-name="Laser.hx" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/Laser.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="21" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
+            <state line="31" column="0" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Registry.hx" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/Registry.hx">
+      <file leaf-file-name="Effects.hx" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/Effects.hx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="1" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Missile.hx" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/Missile.hx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="20" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AttackBlock.hx" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/AttackBlock.hx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="14" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefenseBlock.hx" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/DefenseBlock.hx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResourceBlock.hx" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/ResourceBlock.hx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="18" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BulletManager.hx" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/BulletManager.hx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="47" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+            <state line="11" column="15" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -213,29 +177,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="/usr/lib/haxe/lib/flixel/1,07/org/flixel/FlxObject.hx" />
-        <option value="/usr/lib/haxe/lib/flixel/1,07/org/flixel/plugin/photonstorm/FlxWeapon.hx" />
-        <option value="/usr/lib/haxe/lib/flixel/1,07/org/flixel/plugin/photonstorm/baseTypes/Bullet.hx" />
-        <option value="$PROJECT_DIR$/source/Registry.hx" />
         <option value="$PROJECT_DIR$/source/Weapon.hx" />
         <option value="$PROJECT_DIR$/LD25.nmml" />
         <option value="$PROJECT_DIR$/source/MenuState.hx" />
         <option value="$PROJECT_DIR$/source/BulletManager.hx" />
-        <option value="$PROJECT_DIR$/source/Laser.hx" />
-        <option value="$PROJECT_DIR$/source/Missile.hx" />
-        <option value="$PROJECT_DIR$/source/AttackBlock.hx" />
-        <option value="$PROJECT_DIR$/source/ResourceBlock.hx" />
-        <option value="$PROJECT_DIR$/source/DefenseBlock.hx" />
-        <option value="$PROJECT_DIR$/source/PlayState.hx" />
         <option value="$PROJECT_DIR$/source/BuildSpot.hx" />
+        <option value="$PROJECT_DIR$/source/Registry.hx" />
+        <option value="$PROJECT_DIR$/source/Missile.hx" />
+        <option value="$PROJECT_DIR$/source/Laser.hx" />
+        <option value="$PROJECT_DIR$/source/Effects.hx" />
+        <option value="$PROJECT_DIR$/source/DefenseBlock.hx" />
         <option value="$PROJECT_DIR$/source/Block.hx" />
+        <option value="$PROJECT_DIR$/source/ResourceBlock.hx" />
+        <option value="$PROJECT_DIR$/source/AttackBlock.hx" />
+        <option value="$PROJECT_DIR$/source/PlayState.hx" />
+        <option value="$PROJECT_DIR$/source/WinState.hx" />
+        <option value="$PROJECT_DIR$/source/LoseState.hx" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="2560" />
-    <option name="height" value="1414" />
+    <option name="width" value="1280" />
+    <option name="height" value="1348" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -282,7 +246,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -301,9 +265,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="25" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="25" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="25" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="25" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,18 +305,18 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -359,19 +351,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -398,6 +377,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -472,13 +464,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2560" height="1414" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="1348" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908913" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -490,13 +481,14 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32115868" sideWeight="0.27041942" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10103421" sideWeight="0.8611111" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39955848" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1388889" sideWeight="0.94033414" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18233387" sideWeight="0.8569106" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14308943" sideWeight="0.94033414" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908913" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39955848" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -561,40 +553,26 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/data/base.png">
+    <entry file="file://$PROJECT_DIR$/assets/data/boom.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/data/foundation-32.png">
+    <entry file="file://$PROJECT_DIR$/source/Registry.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="23" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/data/explosion-green.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/LdEntity.hx">
+    <entry file="file://$PROJECT_DIR$/source/Block.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LD25.nmml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="32" selection-start="902" selection-end="902" vertical-scroll-proportion="0.50364965">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/Weapon.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.12893982">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/MenuState.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="43" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.44126076">
+        <state line="30" column="35" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -608,63 +586,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/ResourceBlock.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
+        <state line="9" column="17" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/DefenseBlock.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+        <state line="9" column="16" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/AttackBlock.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="14" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+        <state line="14" column="17" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/Missile.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="20" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
+        <state line="45" column="46" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/Registry.hx">
+    <entry file="file://$PROJECT_DIR$/source/Effects.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
+        <state line="11" column="15" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/Laser.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="21" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/Block.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="29" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/BuildSpot.hx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="37" selection-start="2111" selection-end="2111" vertical-scroll-proportion="0.0">
+        <state line="31" column="0" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/PlayState.hx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="11" selection-start="2984" selection-end="2984" vertical-scroll-proportion="0.2555147">
+        <state line="284" column="0" selection-start="9185" selection-end="9185" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/WinState.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/MenuState.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="659" selection-end="659" vertical-scroll-proportion="0.13157895">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/haxe/lib/flixel/1,07/org/flixel/plugin/photonstorm/FlxDisplay.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="11" selection-start="2755" selection-end="2755" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/LoseState.hx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="4" selection-start="1539" selection-end="1539" vertical-scroll-proportion="0.80409354">
           <folding />
         </state>
       </provider>

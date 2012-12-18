@@ -9,7 +9,7 @@ import org.flixel.FlxSprite;
 class Block extends BuildSpot {
 
     public var cost  = 0;
-    public var value = 10;
+    public var value = 25;
 
     public function new(Graphic:String = "spritesheet-ancients-64x64.png") {
         super(Graphic, 64, 64);
@@ -46,6 +46,9 @@ class Block extends BuildSpot {
 
     override public function update():Void {
         super.update();
+        if(!builtOnTopOf.alive) {
+//           velocity.y += 2;
+        }
     }
     
     override public function destroy():Void {

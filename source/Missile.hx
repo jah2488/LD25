@@ -42,6 +42,11 @@ class Missile extends Weapon {
         FlxG.play("Shoot");
     }
 
+    override public function kill():Void {
+        Registry.effects.explode(this.x, this.y);
+        super.kill();
+    }
+
     override public function update():Void
     {
         super.update();

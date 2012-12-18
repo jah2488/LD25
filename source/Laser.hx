@@ -26,14 +26,10 @@ class Laser extends Weapon {
     {
         x = bx;
         y = by;
-//        var radiansFromAngle = (angle * (Math.PI / 180));
-//        velocity.x = Math.cos(radiansFromAngle) * speed;
-//        velocity.y = Math.sin(radiansFromAngle) * speed;
         exists = true;
 
         var targetPoint = new FlxPoint(FlxG.width/2, FlxG.height * .75);
         FlxVelocity.accelerateTowardsPoint(this, targetPoint, speed, speed, 1);
-//        this.angle = FlxVelocity.angleBetweenPoint(this, targetPoint, true);
         FlxG.play("Laser", 0.2);
     }
 
